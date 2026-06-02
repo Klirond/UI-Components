@@ -1,7 +1,7 @@
 {
-  "name": "ui-components",
+  "name": "@shaedow2000/zetavex-ui-components",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
