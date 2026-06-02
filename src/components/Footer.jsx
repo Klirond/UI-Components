@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import "./components.css";
 
-export default function MinimalFooter() {
+export default function FooterFooter() {
   return (
     <footer
       className={location.pathname === "/login" ? "md:right-0" : "md:left-0"}
