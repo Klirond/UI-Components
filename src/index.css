@@ -33,7 +33,7 @@
 
 html,
 body {
-  @apply text-md font-jost;
+  @apply text-md font-jost bg-midnight-black min-h-screen min-w-screen;
 }
 
 ::selection,
