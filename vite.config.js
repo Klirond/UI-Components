@@ -26,6 +26,7 @@ export default defineConfig({
           react: "React",
           "react-dom": "ReactDOM",
         },
+        format: "es",
       },
     },
   },
