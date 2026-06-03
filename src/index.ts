@@ -5,4 +5,6 @@ export { default as Footer } from "./components/Footer.jsx";
 export { default as LinkBox } from "./components/LinkBox.jsx";
 export { default as LoadingScreen } from "./components/LoadingScreen.jsx";
 export { default as TopSection } from "./components/TopSection.jsx";
-export { default as AuthLayout } from "./layouts/Auth.jsx";
+
+//@ts-ignore
+import "./index.css";
