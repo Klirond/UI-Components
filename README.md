@@ -11,7 +11,7 @@
 <div>
   
   ![Static Badge](https://img.shields.io/badge/Apache%202.0-r?style=flat&logo=apache&logoColor=white&label=licence&labelColor=green&color=white)
-  [![Static Badge](https://img.shields.io/badge/0.0.1-r?style=flat&logo=npm&logoColor=white&label=version&labelColor=red&color=white)](https://www.npmjs.com/package/zetavex-ui-components)
+  [![Static Badge](https://img.shields.io/badge/0.0.1-r?style=flat&logo=npm&logoColor=white&label=version&labelColor=red&color=white)](https://www.npmjs.com/package/klirond-ui-components)
   ![Static Badge](https://img.shields.io/badge/modern%20looking-grey?style=flat&logo=awesomelists&logoColor=white)
 
   
@@ -19,8 +19,8 @@
 
 <div align="center">
 
-  [![Static Badge](https://img.shields.io/badge/Follow%20me-r?style=flat&logo=bluesky&logoColor=white&label=%40shaedow2000&labelColor=blue&color=white)](https://x.com/shaedow2000)
-  [![Static Badge](https://img.shields.io/badge/Follow%20me-r?style=flat&logo=x&logoColor=white&label=%40shaedow2000&labelColor=black&color=white)](https://bsky.app/profile/shaedow2000.bsky.social)
+  [![Static Badge](https://img.shields.io/badge/Follow%20me-r?style=flat&logo=bluesky&logoColor=white&label=%40shaedow2000&labelColor=blue&color=white)](https://bsky.app/profile/shaedow2000.bsky.social)
+  [![Static Badge](https://img.shields.io/badge/Follow%20me-r?style=flat&logo=x&logoColor=white&label=%40shaedow2000&labelColor=black&color=white)](https://x.com/shaedow2000)
   
 </div>
   
