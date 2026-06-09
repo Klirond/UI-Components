@@ -83,6 +83,9 @@
   .full-btn {
     @apply bg-main text-light-color;
   }
+  .white-full-btn {
+    @apply bg-light-color text-dark-color border-light-color;
+  }
 
   .redirection {
     @apply flex flex-row gap-xs justify-start items-center w-full;
@@ -110,9 +113,24 @@
     .full-btn:hover {
       @apply bg-transparent text-main;
     }
-  }
-
-  button:active {
-    @apply scale-95;
+    .white-full-btn:hover {
+      @apply bg-transparent text-light-color;
+    }
+    .full-btn svg,
+    .empty-btn:hover svg {
+      @apply fill-light-color;
+    }
+    .full-btn:hover svg,
+    .empty-btn svg {
+      @apply fill-main;
+    }
+    .white-empty-btn svg,
+    .white-full-btn:hover svg {
+      @apply fill-light-color;
+    }
+    .white-empty-btn:hover svg,
+    .white-full-btn svg {
+      @apply fill-dark-color;
+    }
   }
 }
