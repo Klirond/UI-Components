@@ -1,6 +1,6 @@
 <div align="center">
   <a href="">
-    <img src="https://assets.zetavex.workers.dev/Zetavex%20full%20logo.svg" alt="Zetavex logo" width="500" />
+    <img src="https://assets.klirond.workers.dev/primary-full-logo-dark-bg.svg" alt="KLIROND logo" width="500" />
   </a>
 </div>
 
@@ -33,7 +33,7 @@ Special made UI components, in a simple minimalist design yet good and innovativ
 ## Getting started
 Install the package with npm:
 ```bash
-npm i zetavex-ui-components
+npm i klirond-ui-components
 ```
 
 Then start using it by importing the components that you need.
