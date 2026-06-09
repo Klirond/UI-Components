@@ -22,7 +22,7 @@
 }
 
 * {
-  @apply box-border outline-none transition-all duration-200;
+  @apply box-border outline-none transition-all duration-300;
 }
 *:focus {
   outline: none;

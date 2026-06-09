@@ -71,9 +71,17 @@
     @apply mt-md;
   }
 
-  button,
-  .button {
-    @apply font-medium text-dark-color dark:text-light-color text-md bg-transparent border-2 border-main px-sm py-xs rounded-xl w-fit cursor-pointer;
+  button {
+    @apply font-semibold text-md border-2 border-main px-sm py-xs rounded-xl w-fit cursor-pointer;
+  }
+  .empty-btn {
+    @apply bg-transparent text-main;
+  }
+  .white-empty-btn {
+    @apply bg-transparent text-light-color border-light-color;
+  }
+  .full-btn {
+    @apply bg-main text-light-color;
   }
 
   .redirection {
@@ -93,14 +101,18 @@
   }
 
   @media (hover: hover) and (pointer: fine) {
-    button:hover,
-    .button:hover {
+    .empty-btn:hover {
       @apply bg-main text-light-color;
+    }
+    .white-empty-btn:hover {
+      @apply bg-light-color text-dark-color;
+    }
+    .full-btn:hover {
+      @apply bg-transparent text-main;
     }
   }
 
-  button:active,
-  .button:active {
+  button:active {
     @apply scale-95;
   }
 }
