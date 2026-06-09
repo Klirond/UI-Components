@@ -73,7 +73,7 @@
 
   button,
   .button {
-    @apply font-semibold text-light-color text-md bg-transparent border-2 border-main px-sm py-xs rounded-xl w-fit cursor-pointer;
+    @apply font-medium text-dark-color dark:text-light-color text-md bg-transparent border-2 border-main px-sm py-xs rounded-xl w-fit cursor-pointer;
   }
 
   .redirection {
@@ -85,7 +85,7 @@
   }
 
   #loading-screen {
-    @apply flex items-center justify-center absolute top-0 right-0 z-50 w-screen h-screen bg-dark-color/75;
+    @apply flex items-center justify-center absolute top-0 right-0 z-50 w-screen h-screen bg-light-color/85 dark:bg-dark-color/85;
   }
 
   #loading-screen svg {
@@ -95,7 +95,7 @@
   @media (hover: hover) and (pointer: fine) {
     button:hover,
     .button:hover {
-      @apply bg-main;
+      @apply bg-main text-light-color;
     }
   }
 
